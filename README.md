@@ -26,8 +26,6 @@ There are a **few dreams** that I wish to have, but I know it's just not gonna h
 - **Nirovan**: A whole company, a business, comprised of two entities: Nirovan Corporation and Nirovan Organization with different goals. Maybe this one is doable.
 
 ### 📬 Contact
-I am throwing this here because I think this readme will be quite long.
-
 The best way to contact me currently is from Discord: Just DM me **@anstropleuton**.
 
 For a more formal methods, contact me `anstro.pleuton@gmail.com` or `anstro.pleuton@proton.me`.
