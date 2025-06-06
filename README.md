@@ -16,8 +16,8 @@ I will cover my history, my personality (which is **perfectionist**, greatest st
 
 ### 🛣️ My Future Plans
 I have a **roadmap of plans** that I want to build as my personal projects:
-- **Cifrus**: An **argument parser** that actually supports all kinds of features, such as both **POSIX-styled** and **Microsoft-style** arguments.
-- **Optrone**: A command-line password manager that is actually simple.
+- **Optrone**: An **argument parser** that actually supports all kinds of features, such as both **POSIX-styled** and **Microsoft-style** arguments.
+- **Cifrus**: A command-line password manager that is actually simple.
 - **Glarens**: A GUI framework (yes, this is a big one, yes it will take me 50 million rewrites, yes it may not ever be finished). It will be designed with modularity and, most importantly, sanity in mind.
 - **???**: An app development framework that wraps it all up, and provides neat system integration features. This one does not have a name yet.
 
