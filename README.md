@@ -7,10 +7,6 @@ I am a hobbyist **C++ programmer** who has self-taught, well, almost all of what
 
 I really enjoy working on **personal projects** that allow me to learn so much about whatever topics I touch!
 
-Currently, I am developing **Fluxins library**. It is a modern C++ expression parser/evaluator library, which is designed to be easily integrated in other systems, such as a text field or GUI layout values. It is really flexible and customizable, like, you can even make your own custom operators too if you would like!
-
-I am also developing **Optrone library**. It is a modern C++ command-line argument parser library, which is designed to be declaritive, predictable and consistent. Of course it will be as modular as Fluxins, with easy integration and flexibility.
-
 ### 💬 I wanna talk
 But there is too much to fit in a... _reasonable_ README file..., so I am going to create a **Portfolio about myself** that you can check out when I release it and put a link in here.
 
@@ -24,10 +20,11 @@ I have a **roadmap of plans** that I want to build as my personal projects:
 - **???**: An app development framework that wraps it all up, and provides neat system integration features. This one does not have a name yet.
 
 There are a **few dreams** that I wish to have, but I know it's just not gonna happen that easy:
+- **Engenide**: A freedom-first programming language that enables writing expressive code.
 - **Xiorite**: An operating system. Yes. That's why it is in the dreams list, not future plans.
 - **Nirovan**: A whole company, a business, comprised of two entities: Nirovan Corporation and Nirovan Organization with different goals. Maybe this one is doable.
 
 ### 📬 Contact
 The best way to contact me currently is from Discord: Just DM me **@anstropleuton**.
 
-For a more formal methods, contact me `anstro.pleuton@gmail.com` or `anstro.pleuton@proton.me`.
+For a more formal methods, contact me `anstro.pleuton@gmail.com`
