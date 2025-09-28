@@ -13,7 +13,7 @@ import { blogList } from "../../data/blogList";
 import { useEffect, useRef } from "react";
 import Tooltip from "../../components/Tooltip";
 import Popover from "../../components/Popover";
-import { Navigate, useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
 import CodeBlock, { Code } from "../../components/CodeBlock";
 import useLayout from "../../components/useLayout";
 import { links } from "../../data/links";
@@ -116,12 +116,12 @@ function BlogCard({ title, excerpt, date, readTime, url }: BlogCardProps) {
         </p>
       </Formatted>
       <div className="flex gap-4">
-        <a href={url}>
+        <Link to={url}>
           <Button style="accent" className="group flex gap-2">
             <span className="font-bold">Read More</span>
             <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />
           </Button>
-        </a>
+        </Link>
         <Tooltip content={<span>Share blog.</span>} position="bottom">
           <Button
             style="transparent"
