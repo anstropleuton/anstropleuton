@@ -5,6 +5,7 @@ import {
   Children,
   isValidElement,
   cloneElement,
+  type ReactElement,
   type ReactNode,
 } from "react";
 import {
@@ -62,12 +63,14 @@ export function HorizontalScrollArea({ children }: { children: ReactNode }) {
   if (hasChildren) {
     const only = Children.only(children);
     if (isValidElement(only)) {
-      const existingClass = (only.props && only.props.className) || "";
+      const el = only as ReactElement<any>;
+      const existingClass = el.props.className || "";
       const mergedClass = `${existingClass} no-scrollbar overflow-x-auto overflow-y-auto`;
-      clonedChild = cloneElement(only as any, {
+
+      clonedChild = cloneElement(el, {
         ref: scrollElRef,
         className: mergedClass,
-        style: { ...(only.props?.style || {}) },
+        style: { ...(el.props?.style || {}) },
       });
     } else {
       clonedChild = only;
@@ -162,12 +165,14 @@ export function VerticalScrollArea({ children }: { children: ReactNode }) {
   if (hasChildren) {
     const only = Children.only(children);
     if (isValidElement(only)) {
-      const existingClass = (only.props && only.props.className) || "";
-      const mergedClass = `${existingClass} no-scrollbar overflow-y-auto overflow-x-auto`;
-      clonedChild = cloneElement(only as any, {
+      const el = only as ReactElement<any>;
+      const existingClass = el.props.className || "";
+      const mergedClass = `${existingClass} no-scrollbar overflow-x-auto overflow-y-auto`;
+
+      clonedChild = cloneElement(el, {
         ref: scrollElRef,
         className: mergedClass,
-        style: { ...(only.props?.style || {}) },
+        style: { ...(el.props?.style || {}) },
       });
     } else {
       clonedChild = only;
