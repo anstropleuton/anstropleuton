@@ -1,0 +1,80 @@
+export const title = "How I Learned Programming on a 2014 Android Tablet";
+export const excerpt =
+  "The year was 2021, COVID-19 had just struck, and I was trapped in my native village with no computer. I wanted to build a game... but all I had was my Mom's old phone.";
+export const date = "2025-09-24";
+export const readTime = 15;
+
+import firstGameScreenshot from "../old-projects/first-game/showcase/screenshot.png";
+
+# Stuck in the Village, Armed with a Tablet
+
+The year is 2021, and COVID-19 just struck my country. 15 year old me went to my native village, and I got trapped. I can no longer travel back to home due to lockdown restrictions. Figuring ways to pass my time, I decided to try make my own game. I did not have a computer at that time, so I had to resort to my Mom's mobile phone. I used an Android app (whose name I cannot remember anymore), and built a small game. Just a really tiny shooter game.
+
+Unfortunately, the mobile phone overheated and died permanently. So I had to use my old 2014 **Samsung Galaxy Tab 4**. It was running Android 4.4.2, and had 8 GB storage + 1.24 GB RAM. Though, I had a SD Card of 32 GB storage.
+
+My tab did not support that app I was using, so that is when I gotten into programming. I discovered Unity, and the fact that it uses C# for scripting. I decided to learn C# in my tab, so I can start making game after I get back to home and have a computer (it will be a long while even after coming home). This means, **C#... is my first programming language...** whether I like it or not.
+
+I used an Android app **C# Shell** and started learning C# from Brackey's [HOW TO PROGRAM in C#](https://www.youtube.com/playlist?list=PLPV2KyIb3jR4CtEelGPsmPzlvP7ISPYzR) video tutorials. I followed the tutorial and made my own programs in C# Shell.
+
+I made a ASCII Rectangle Generator in C#, though 15 year old me called it "Cube"... It had an input for width (I called it "Length" for unexplainable reason) and height, and render an ASCII rectangle using `+`, `-`, `|` and `#` characters.
+
+```
+Length :12
+Height :6
+=========
++----------+
+|##########|
+|##########|
+|##########|
+|##########|
++----------+
+=========
+```
+
+It didn't have the best code for it, but it was mine. And I was proud.
+
+---
+
+# Chasing Speed: My Leap into C++
+
+But there was a problem: **C# Shell was too slow** on my tab. It is to be expected, but it was slow than any other apps. It would take a whole 10 seconds just to compile and run the program. And even in execution, it would display output slowly.
+
+I googled some phrase like "*fastest programming language*", and found a Microsoft website (or at least I think it as Microsoft, I could be totally wrong too) that compared runtime performance of a bunch of different programming language. C and C++ were ranked highest. C++ particularly grabbed my attention, as it was the second fastest listed, but far more features mentioned than C. That is when I **switched my language to C++**. That was the only factor for language consideration, what else can be done on an old tab?
+
+I found a different Android app **CPP-N-IDE**, which had a version that supported Android 4.4. I believe it used GCC 4 or some other dated toolchain like that (or was it 8 probably?), and it did not had a debugger (I believe...) or other tools that a modern IDE would have. It did have a formatter though.
+
+*Shh: I also modded CPP-N-IDE. It had the option to theme the editor, and the default was Light Theme. I wanted dark, but theming option is only available for premium users. So I dug up its APK, tinkered with its default settings, and boom: Dark Theme by default 😎.*
+
+I started writing C++ code. Googling my ways through, read some random tutorials, etc. And eventually recreated the rectange program in C++. I was shocked on just **how much faster it ran**. Almost no delay on the grumpy old tab. I wrote many C++ programs in it, and almost all of them helped me learn C++ more and more.
+
+I wrote almost all my programs based on my own needs. No "To-Do List", no "Guess The Number", no "Quiz Game". I wrote only what I was interested in. From a mini calculator using a specific formula, exponent calculator, and *8 different variants* of password generator 😅.
+
+Some of the programs were small and one-off logic that I could have absolutely used a regular calculator. Some of them were giant `main` function that nobody can decipher. But exponent calculator is where I remember having to wait **40 or 50 minutes** to calculate `2^65536` or some stupidly large number like that. I don't know how I possibly had the patience to wait that long. But hey, most of them worked!
+
+I retain some of the old programs in my old folders list. The oldest one is dated November 1, 2021 (I started programming a bit while before this date). Seeing back at those programs really is nostalgic. And it really does feel like I preserved a time-capsule, though with wreckage.
+
+It goes without saying, writing giant programs in CPP-N-IDE is **painfully slow**. Even the editor and compiler would start lagging. Could you imagine writing programs on an old tab, with only on-screen keyboard ([Hackers Keyboard](https://github.com/klausw/hackerskeyboard)), on an editor that has GCC 4/8 on it, without debugger, where each press would take sometimes a second to appear on the editor, and you are 15 years old?
+
+It really does feel like a **Hardcore Bootcamp** compared to the luxury that any computer, even old ones, can achieve. What kept me going was my sheer desire to build something. I was almost addicted to programming (I still am), even if I didn't realize at that time that those constraints are absurd. I just didn't knew the luxury existed.
+
+---
+
+# Finally, a Real Keyboard
+
+Fast forwarding to year 2022, I was 16 years old. After a while of programming on the tab, I eventually got to use my Dad's laptop to do programming in it, a 2008 **Dell Vostro 1510**, running Windows 7 on Core 2 Duo. I did not use keyboard much, but I started typing really fast without much experience. I started by using GCC, as I wanted to use [raylib](https://raylib.com) to start creating UI-based apps.
+
+Programming was much much better. In my old tab I was programming super slow, partly because it is a touch-device, no physical keyboard, it is slow, etc. But I stuck around becaue I did not know such a convenient world of programming in a computer existed outside my realm. I slowly moved to using computer primarily. I still used my tab when my Dad needed his computer for work.
+
+I installed raylib and it came with GCC compiler, a familiar face (thought I barely knew at the time). I think I started with [Notepad++](https://notepad-plus-plus.org) as it came with raylib. At some point I used [VS Code](https://code.visualstudio.com). Or it could be the opposite way, I don't remember. I started by creating folders for each program, in a projects folder, and most of the programs were single-file code, just like before.
+
+I then started using raylib. I remember stumbling across an error: *GLFW 65543*. My dad's laptop did not support OpenGL 3.3. This was also when I first **debugged my code**, step by step, in the IDE, until I found that initialization of raylib was causing it to crash completely. I took help from raylib's [Discord Server](https://discord.gg/raylib) and got to know that the solution is to recompile raylib to support OpenGL 1.1. It worked thanks to great people at raylib!
+
+At first, I did not understand anything that was going on in the code, even after reading comments. I was wondering why for every line of code (*why init? why is there a giant loop (game loop), why begin/end drawing*, etc.). But I started experimenting with the code, adding/removing things, seeing other examples, and slowly I got to know my way around this new development environment.
+
+The first ever app using raylib was rendering square, then texture, then moving the square using keyboard input, rotating/scaling the square (with more keyboard input), even experimenting with raylib's 2D Camera system, and finally changing the color over time for some RGB effect. I even displayed things on screen too. Luckily, I shared it with my friend in Discord, so I was able to get the source code.
+
+[**View Source**](/old-projects/first-game/sources)
+
+<img src={firstGameScreenshot} alt="Showcase - Screenshot of my first ever experiment project in raylib" />
+
+After a while of messing with raylib, I eventually recreated Minesweeper, which was my first completed game project using raylib! To learn more, see my blog post about [A Time-capsule of my Projects Museum](/blogs/projects-museum).

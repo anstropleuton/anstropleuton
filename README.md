@@ -1,30 +1,13 @@
 ## Hi there 👋
 
 ### 🧑‍💻 About Me
-I am **Anstro Pleuton**. This name is just an _alias_ to my real name. I am male and I was born on February 16, 2006.
+I am a hobbyist **C++23** programmer passionate about building **systems, tools and frameworks** as **open-source library projects**. Over the past 3+ years, I have been exploring the programming world with curiosity and creativity.
 
-I am a hobbyist **C++ programmer** who has self-taught, well, almost all of what I know about C++. I have been using the most **modern C++** (C++23) for all my projects.
+Along the way, I have experimented with System Designing, Game Developmenet, Android Apps Development and Web Development. I have used various other programming languages, including C, Python, Rust, Kotlin, C# and React.
 
-I really enjoy working on **personal projects** that allow me to learn so much about whatever topics I touch!
+I have built many programs to experiment with different ideas, and most of my projects reflect that. Not all are finished, and I am not upset about it. They have served as a creative medium for me to tinker around systems and explore what's possible.
 
 ### 💬 I wanna talk
-But there is too much to fit in a... _reasonable_ README file..., so I am going to create a **Portfolio about myself** that you can check out when I release it and put a link in here.
+But there is too much to fit in a... *reasonable* README file..., so I created my [✨ Portfolio Website ✨](https://anstropleuton.github.io)!
 
-I will cover my history, my personality (which is **perfectionist**, greatest strength and the greatest weakness of me), and other things. I would create blog posts about interesting things too.
-
-### 🛣️ My Future Plans
-I have a **roadmap of plans** that I want to build as my personal projects:
-- **Optrone**: An **argument parser** that actually supports all kinds of features, such as both **POSIX-styled** and **Microsoft-style** arguments.
-- **Cyrine**: A command-line password manager that is actually simple.
-- **Glarens**: A GUI framework (yes, this is a big one, yes it will take me 50 million rewrites, yes it may not ever be finished). It will be designed with modularity and, most importantly, sanity in mind.
-- **???**: An app development framework that wraps it all up, and provides neat system integration features. This one does not have a name yet.
-
-There are a **few dreams** that I wish to have, but I know it's just not gonna happen that easy:
-- **Engenide**: A freedom-first programming language that enables writing expressive code.
-- **Xiorite**: An operating system. Yes. That's why it is in the dreams list, not future plans.
-- **Nirovan**: A whole company, a business, comprised of two entities: Nirovan Corporation and Nirovan Organization with different goals. Maybe this one is doable.
-
-### 📬 Contact
-The best way to contact me currently is from Discord: Just DM me **@anstropleuton**.
-
-For a more formal methods, contact me `anstro.pleuton@gmail.com`
+I have covered about myself, my history and wrote a *few* blogs.

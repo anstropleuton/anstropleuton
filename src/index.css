@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-bungee: "Bungee", sans-serif, system-ui;
+  --font-fira-code: "Fira Code", monospace, ui-monospace, system-ui;
+  --font-inter: "Inter", sans-serif, system-ui;
+  --font-nova-square: "Nova Square", sans-serif, system-ui;
+  --font-stix-two-text: "STIX Two Text", serif, system-ui;
+  --font-ubuntu: "Ubuntu", sans-serif, system-ui;
+}
+
+.thin-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 100, 100, 0.38) transparent;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
