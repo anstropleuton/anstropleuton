@@ -40,7 +40,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-
 
-      - name: Install dependencies (safe: allow lockfile creation)
+      - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
         # If your pnpm-lock.yaml lives in a subfolder, add: working-directory: ./path/to
 
