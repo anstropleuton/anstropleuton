@@ -15,4 +15,5 @@ export default defineConfig({
   resolve: {
     extensions: [".mjs", ".js", ".ts", ".tsx", ".jsx", ".mdx"],
   },
+  base: '/'
 });
