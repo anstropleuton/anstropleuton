@@ -8,7 +8,7 @@ import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <HashRouter basename="/anstropleuton">
+    <HashRouter>
       <ThemeProvider>
         <LayoutProvider>
           <App />
