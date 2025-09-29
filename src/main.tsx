@@ -4,16 +4,16 @@ import "./index.css";
 import App from "./App.tsx";
 import ThemeProvider from "./components/ThemeProvider";
 import LayoutProvider from "./components/LayoutProvider";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/anstropleuton">
+    <HashRouter basename="/anstropleuton">
       <ThemeProvider>
         <LayoutProvider>
           <App />
         </LayoutProvider>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 );

@@ -98,7 +98,7 @@ export default function Header() {
     <header className="sticky top-0 border-b-2 border-b-neutral-200 bg-white/60 py-2 backdrop-blur-3xl transition-colors dark:border-b-neutral-800 dark:bg-black/60">
       <div className="mx-auto flex max-w-6xl justify-between gap-8 px-10 not-md:px-6">
         <div className="flex shrink-0 gap-2">
-          <Link to="/#">
+          <Link to="#/#">
             <Tooltip content={<span>Homepage.</span>} position="bottom">
               <Button className="flex items-center gap-2 select-none">
                 <img src={profilePicture} className="h-6 w-6 rounded-full" />

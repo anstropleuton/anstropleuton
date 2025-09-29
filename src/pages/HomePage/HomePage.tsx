@@ -79,7 +79,7 @@ export default function HomePage() {
           content={<span>Read the rest of the adventure here.</span>}
           position="right"
         >
-          <Link to="/blogs/early-adventure">
+          <Link to="#/blogs/early-adventure">
             <Button style="accent" className="group flex gap-2">
               <span className="text-lg font-bold">Continue Reading</span>
               <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />

@@ -1,13 +1,13 @@
 import type { PageLink } from "../components/LayoutContext";
 
 const homeLink = {
-  link: "/#",
+  link: "#/#",
   content: <span>Home</span>,
   tooltip: <span>Homepage.</span>,
 } as PageLink;
 
 const blogsLink = {
-  link: "/blogs",
+  link: "#/blogs",
   content: <span>Blogs</span>,
   tooltip: <span>My blogs.</span>,
 } as PageLink;
