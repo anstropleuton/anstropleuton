@@ -11,7 +11,6 @@ import {
   HorizontalScrollArea,
   VerticalScrollArea,
 } from "../components/ScrollArea";
-import { Link } from "react-router-dom";
 
 export default function Header() {
   const context = useLayout();
@@ -84,13 +83,13 @@ export default function Header() {
 
   const linkNodes = links.map((link, i) => (
     <button key={i} onClick={() => setNavMenuOpened(false)}>
-      <Link to={link.link ?? ""}>
+      <a href={link.link}>
         <Tooltip content={link.tooltip} position="bottom">
           <Button className="flex items-center gap-2 select-none">
             {link.content}
           </Button>
         </Tooltip>
-      </Link>
+      </a>
     </button>
   ));
 
@@ -98,14 +97,14 @@ export default function Header() {
     <header className="sticky top-0 border-b-2 border-b-neutral-200 bg-white/60 py-2 backdrop-blur-3xl transition-colors dark:border-b-neutral-800 dark:bg-black/60">
       <div className="mx-auto flex max-w-6xl justify-between gap-8 px-10 not-md:px-6">
         <div className="flex shrink-0 gap-2">
-          <Link to="#/#">
+          <a href="/#">
             <Tooltip content={<span>Homepage.</span>} position="bottom">
               <Button className="flex items-center gap-2 select-none">
                 <img src={profilePicture} className="h-6 w-6 rounded-full" />
                 <span className="font-bold">Anstro Pleuton</span>
               </Button>
             </Tooltip>
-          </Link>
+          </a>
         </div>
         <nav className="min-w-0 not-md:hidden">
           <HorizontalScrollArea>

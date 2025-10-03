@@ -140,7 +140,7 @@ export default function FileExplorer({
   }
 
   const pathNodes = cwdPath.flatMap((segment, i) => {
-    const to = "#" + joinPath(...cwdPath.slice(0, i + 1));
+    const to = joinPath(...cwdPath.slice(0, i + 1));
     return [
       <Link key={`breadcrumb-${i}-${segment}`} to={to}>
         <Button className="rounded-xl">
@@ -176,7 +176,7 @@ export default function FileExplorer({
   }
 
   const dirNodes = currentDir.dirs.map((d) => {
-    const to = "#" + (d.path ? joinPath(d.path) : joinPath(currentDir.path, d.name));
+    const to = d.path ? joinPath(d.path) : joinPath(currentDir.path, d.name);
     return (
       <Link key={`dir-${to}`} to={to}>
         <Button className="rounded-xl">
@@ -205,7 +205,7 @@ export default function FileExplorer({
         <FileIcon className="h-6 w-6" />
       );
 
-    const to = "#" + joinPath(currentDir.path, f.name);
+    const to = joinPath(currentDir.path, f.name);
     return (
       <Link key={`file-${to}`} to={to}>
         <Button

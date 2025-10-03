@@ -10,7 +10,6 @@ import useLayout from "../../components/useLayout";
 import { links } from "../../data/links";
 import usePageTitle from "../../components/setPageTitle";
 import type { SectionLink } from "../../components/LayoutContext";
-import { Link } from "react-router-dom";
 
 export default function HomePage() {
   const itsMeLink = useMemo<SectionLink>(
@@ -79,12 +78,12 @@ export default function HomePage() {
           content={<span>Read the rest of the adventure here.</span>}
           position="right"
         >
-          <Link to="#/blogs/early-adventure">
+          <a href="/blogs/early-adventure">
             <Button style="accent" className="group flex gap-2">
               <span className="text-lg font-bold">Continue Reading</span>
               <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />
             </Button>
-          </Link>
+          </a>
         </Tooltip>
       </div>
     </div>
