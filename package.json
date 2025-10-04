@@ -9,8 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "pnpm build",
-    "deploy": "gh-pages -d dist"
+    "start": "node server/index.js"
   },
   "dependencies": {
     "@cyco130/vite-plugin-mdx": "^2.2.0",
@@ -20,7 +19,7 @@
     "@types/mdx": "^2.0.13",
     "@types/path-browserify": "^1.0.3",
     "@types/react-syntax-highlighter": "^15.5.13",
-    "gh-pages": "^6.3.0",
+    "express": "^5.1.0",
     "lucide-react": "^0.544.0",
     "path-browserify": "^1.0.1",
     "prettier": "^3.6.2",
