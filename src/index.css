@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Twitter Color Emoji";
+  src: url("/TwitterColorEmoji-SVGinOT.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+@layer utilities {
+  .font-bungee {
+    font-family: "Bungee", sans-serif;
+  }
+
+  .font-fira-code {
+    font-family: "Fira Code", monospace;
+  }
+
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-nova-square {
+    font-family: "Nova Square", sans-serif;
+  }
+
+  .font-stix-two-text {
+    font-family: "STIX Two Text", serif;
+  }
+
+  .font-ubuntu {
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+
+body {
+  font-family: "Twitter Color Emoji", "Ubuntu", sans-serif;
+}
