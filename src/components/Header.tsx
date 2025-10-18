@@ -2,7 +2,7 @@ import { Button, Link } from "./Rounded";
 import profilePicture from "../assets/Anstro Pleuton NGC 602 Hubble Chandra.png";
 import { useLayout } from "./LayoutProvider";
 import { useTheme } from "./ThemeProvider";
-import { Moon, Sun, SunMoon } from "lucide-react";
+import { Menu, Moon, Sun, SunMoon } from "lucide-react";
 
 export default function Header() {
   const { links } = useLayout();
@@ -36,13 +36,16 @@ export default function Header() {
           <Button onClick={() => theme.setTheme(nextTheme)} className="px-4">
             <span className="text-sm font-bold">{themeIcon}</span>
           </Button>
-          <nav className="flex gap-2">
+          <nav className="flex gap-2 not-md:hidden">
             {links.map((item, i) => (
               <Link key={i} url={item.url} className="px-4">
                 <span className="text-sm font-bold">{item.title}</span>
               </Link>
             ))}
           </nav>
+          <Button onClick={() => {}} className="px-4">
+            <Menu className="h-6 w-6" />
+          </Button>
         </div>
       </div>
     </header>

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center border-t-2 border-t-neutral-200 bg-neutral-100 dark:border-t-neutral-800 dark:bg-neutral-900">
       <div className="w-full max-w-7xl p-8">
-        <div className="flex justify-between gap-2">
+        <div className="flex flex-wrap justify-between gap-10">
           <div>
             <a href="/" className="flex items-center gap-4">
               <img src={profilePicture} className="h-10 w-10 rounded-full" />
@@ -24,6 +24,29 @@ export default function Footer() {
                 <span className="text-sm font-bold">{item.title}</span>
               </a>
             ))}
+          </div>
+          <div className="flex flex-col gap-4">
+            <span className="font-bold">Socials</span>
+            <a
+              href="https://github.com/anstropleuton"
+              className="flex items-center gap-2"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg"
+                className="h-6 w-6 invert-100 dark:invert-0"
+              />
+              <span className="text-sm font-bold">GitHub</span>
+            </a>
+            <a
+              href="https://github.com/anstropleuton"
+              className="flex items-center gap-2"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg"
+                className="h-6 w-6"
+              />
+              <span className="text-sm font-bold">YouTube</span>
+            </a>
           </div>
         </div>
       </div>

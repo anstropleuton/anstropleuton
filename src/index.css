@@ -5,8 +5,7 @@
 
 @font-face {
   font-family: "Twitter Color Emoji";
-  src: url("/TwitterColorEmoji-SVGinOT.ttf")
-    format("truetype");
+  src: url("/TwitterColorEmoji-SVGinOT.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -38,4 +37,13 @@
 
 body {
   font-family: "Twitter Color Emoji", "Ubuntu", sans-serif;
+}
+
+* {
+  scrollbar-color: #000 #fff;
+  scrollbar-width: thin;
+}
+
+.dark {
+  scrollbar-color: #fff #000;
 }

@@ -50,7 +50,7 @@ function MainLayout() {
   return (
     <div
       id="app"
-      className="font-ubuntu flex min-h-screen flex-col bg-white text-black dark:bg-black dark:text-white"
+      className="font-ubuntu flex min-h-screen flex-col bg-white text-black dark:bg-black dark:text-white selection:bg-purple-400 dark:selection:bg-purple-600"
     >
       <Header />
       <Main />
